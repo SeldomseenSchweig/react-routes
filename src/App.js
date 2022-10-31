@@ -13,14 +13,14 @@ function App(props) {
     <div className="App">
       <BrowserRouter>
         <Nav dogs={dogs}/>
-        <Routes />        
+        <Routes dogs={dogs}/>        
 
-      
       </BrowserRouter>
 
     </div>
   );
 }
+
 
 App.defaultProps = {
   dogs: [
