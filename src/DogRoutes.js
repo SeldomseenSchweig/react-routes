@@ -2,8 +2,6 @@ import React from "react";
 import { Route, Redirect, Switch } from 'react-router-dom';
 import DogList from "./DogList";
 import DogDetails from "./DogDetails";
-import { useParams } from "react-router-dom";
-
 
 
 function Routes({dogs}) {
